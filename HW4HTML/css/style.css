@@ -58,6 +58,11 @@ p2 {
   vertical-align: middle; 
 }
 
+.orange{
+  background-color: #FFD580;
+  border-left: 20px solid #ffb300;
+}
+
 .schedule th {
   background-color: #555;
   color: #fff;
