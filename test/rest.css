@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    font-size: 50px;
+    text-align: center;
+}
+
+.flex-item-left{
+    background-color: #ec5a16;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right{
+    background-color: #6429e2;
+    padding: 10px;
+    flex: 50%;
+}
+/* Responsive layout*/
+@media (max-width:500px) {
+    .flex-container{
+        flex-direction: column;
+}
+}
